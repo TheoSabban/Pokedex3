@@ -11,6 +11,19 @@ const pokemonList = [
   },
   {
     name: "Mew",
+    imgSrc:
+      "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/151.png"
+  },
+
+  {
+    name: "Dracolosse",
+    imgSrc:
+      "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/149.png"
+  },
+
+  {
+    name: "Dracaufeu",
+
   },
 ];
 
@@ -31,6 +44,12 @@ function App() {
         </button>
         <button type="button" onClick={() => setPokemonName("Mew")}>
           Mew
+        </button>
+        <button type="button" onClick={() => setPokemonName("Dracolosse")}>
+          Dracolosse
+        </button>
+        <button type="button" onClick={() => setPokemonName("Dracaufeu")}>
+          Dracaufeu
         </button>
       </nav>
       <PokemonCard pokemon={pokemon} />
