@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 
@@ -26,10 +26,21 @@ const pokemonList = [
     name: "Dracaufeu",
 
   },
+
+  {
+    name: "Pikachu",
+    imgSrc:
+      "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png",
+  },
 ];
 
 function App() {
   const [pokemonName, setPokemonName] = useState("Bulbizarre");
+
+  useEffect(() => {
+    alert("hello pokemon trainer :)");
+  }, []);
+
 
   const pokemon = pokemonList.find((pokemon) => pokemon.name === pokemonName);
 
