@@ -182,3 +182,54 @@
     border-right-color: var(--border);
   }
 }
+
+.Bulbizarre { --color: #8ee88e; }
+.Mew { --color: #f4a6c8; }
+.Dracolosse { --color: #f5b971; }
+.Dracaufeu { --color: #ff9d76; }
+.Pikachu { --color: #f7d94c; }
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+}
+
+nav button {
+  padding: 10px 20px;
+  color: #000000;
+  background: var(--color);
+}
+
+nav button {
+  padding: 10px 20px;
+  color: #000000;
+
+}
+
+figure {
+  width: 240px;
+  margin: 24px auto;
+  padding: 16px;
+  box-sizing: border-box;
+  background: var(--color);
+}
+
+figure img,
+figure p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 12px;
+  box-sizing: border-box;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+figcaption {
+  margin-top: 12px;
+  color: #000000;
+}

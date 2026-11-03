@@ -7,7 +7,7 @@ interface PokemonCard {
 
 function PokemonCard({ pokemon }: PokemonCard) {
   return (
-    <figure>
+    <figure className={pokemon.name}>
       {pokemon.imgSrc != null ? (
         <img src={pokemon.imgSrc} alt={pokemon.name} />
       ) : (

@@ -15,6 +15,7 @@ function NavBar({ setPokemonName, pokemonList }: NavBarProps) {
         <button
           key={PokemonListCheck.name}
           type="button"
+           className={PokemonListCheck.name}
           onClick={() => {
             if (PokemonListCheck.name === "Pikachu") {
               alert("Pika... Pikachu !!!");
