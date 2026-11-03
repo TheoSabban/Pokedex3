@@ -202,12 +202,6 @@ nav button {
   background: var(--color);
 }
 
-nav button {
-  padding: 10px 20px;
-  color: #000000;
-
-}
-
 figure {
   width: 240px;
   margin: 24px auto;
