@@ -1,19 +1,10 @@
 # Pokédex en React
 
-Application React qui affiche la carte d'un Pokémon : son image et son nom. Chaque branche correspond à une étape du cours et ajoute une notion.
+Application React qui affiche la carte d'un Pokémon (image et nom). Une barre de navigation permet de choisir le Pokémon à afficher.
 
-## Contenu des branches
+# Fonctionnalités
 
-1. `main` : le projet Vite avec React et TypeScript, tel que généré.
-2. `components.1` : création du composant `PokemonCard`, qui affiche un Pokémon écrit en dur (image et nom), et appel dans `App`.
-3. `components.2` : les données viennent d'un tableau `pokemonList`. Un opérateur ternaire affiche l'image si `imgSrc` existe, sinon un paragraphe `???`.
-4. `props.1` : le tableau est déplacé dans `App`, qui envoie le Pokémon à `PokemonCard` par la prop `pokemon`.
-5. `props.2` : branche finale, qui contient tout le code terminé. Les props de `PokemonCard` sont typées avec une interface TypeScript, `imgSrc` étant optionnelle grâce au `?`.
-
-## Technologies utilisées
-
-* React
-* TypeScript
-* Vite
-
-Auteur : Théo Sabban
+1. Un bouton par Pokémon dans la NavBar : Bulbizarre, Mew, Dracolosse, Dracaufeu et Pikachu.
+2. Le Pokémon affiché est géré par un state (useState) dans App.
+3. Si imgSrc n'existe pas, un ??? s'affiche à la place de l'image.
+4. Chaque Pokémon a sa couleur, partagée par son bouton et sa carte.
