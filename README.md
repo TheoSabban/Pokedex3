@@ -8,3 +8,12 @@ Application React qui affiche la carte d'un Pokémon (image et nom). Une barre d
 2. Le Pokémon affiché est géré par un state (useState) dans App.
 3. Si imgSrc n'existe pas, un ??? s'affiche à la place de l'image.
 4. Chaque Pokémon a sa couleur, partagée par son bouton et sa carte.
+
+# Technologies utilisées
+
+-React
+-TypeScript
+-Vite
+-CSS
+
+Auteur : Théo Sabban
